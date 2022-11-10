@@ -3,15 +3,16 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<nav>
-		<ul class="flex justify-center space-x-16 p-8 text-xl">
+	<nav class="hidden md:flex md:justify-center">
+		<ul class="flex space-x-16 p-8 text-xl">
 			<a href="/"><li>Home</li></a>
 			<a href="/socials"><li>Socials</li></a>
 			<a href="/projects"><li>Projects</li></a>
 			<a href="/what-i-use"><li>Technologies</li></a>
+			<button class="bg-[#1A68DD] rounded-lg text-white text-base w-[137px] h-[37px] justify-end">Surprise Me!</button>
 		</ul>
-		<!-- <button class="flex bg-[#1A68DD] p-2 rounded-lg text-white text-base">Surprise Me!</button> -->
 	</nav>
+	<div class="md:hidden sm:visible">Hello</div>
 </Layout>
 
 <style>
