@@ -5,3 +5,7 @@
      color: #1a8fdd;
      font-family: "Fira Sans", sans-serif;
  }
+  h1 {
+      font-size: 4rem;
+      font-weight: 500;
+  }
