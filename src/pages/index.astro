@@ -6,12 +6,28 @@ import Layout from "../layouts/Layout.astro";
 	<!-- Navbar on desktop -->
 	<nav class="hidden md:flex md:justify-center sticky backdrop-blur-md top-0">
 		<ul class="flex space-x-16 p-8 text-xl">
-			<a href="/"><li>Home</li></a>
-			<a href="/socials"><li>Socials</li></a>
-			<a href="/projects"><li>Projects</li></a>
-			<a href="/what-i-use"><li>Technologies</li></a>
+			<a
+				class="hover:text-blue-800 hover:transition-colors duration-300"
+				href="/"
+				><li>Home</li>
+			</a>
+			<a
+				class="hover:text-blue-800 hover:transition-colors duration-300"
+				href="/socials"
+				><li>Socials</li>
+			</a>
+			<a
+				class="hover:text-blue-800 hover:transition-colors duration-300"
+				href="/projects"
+				><li>Projects</li>
+			</a>
+			<a
+				class="hover:text-blue-800 hover:transition-colors duration-300"
+				href="/what-i-use"
+				><li>Technologies</li>
+			</a>
 			<button
-				class="bg-blue-secondary rounded-lg text-white text-base w-[137px] h-[37px]"
+				class="bg-blue-secondary rounded-lg text-white text-base w-[137px] h-[37px] hover:duration-500 hover:scale-110 hover:bg-blue-800 hover:drop-shadow-lg duration-500"
 				>Surprise Me!</button
 			>
 		</ul>
@@ -21,14 +37,15 @@ import Layout from "../layouts/Layout.astro";
 		MONSTAJOE welcomes you to his <br />ASTRO-nomical🚀 portfolio
 	</h1>
 	<!-- real name -->
-	<h2 class="flex justify-center text-center text-3xl font-medium mb-4">
+	<h2 class="flex justify-center text-center text-3xl font-medium mb-8">
 		Real name: Youssef El-Shehaby
 	</h2>
-
+	<!-- curent title -->
 	<h3 class="flex justify-center text-center text-xl">
-		Computer Science Student at the <strong>&nbsp;GIUAS&nbsp;</strong> (German
-		International University of Applied Sciences)
+		Computer Science Student at the German International University of
+		Applied Sciences<br />(GIUAS)
 	</h3>
+	<!-- biopic -->
 	<p class="flex justify-center text-xl text-center p-10 text-blue-secondary">
 		I’m currently majoring in Software Engineering with a minor in Data
 		Science. When I was very young, like way back when, I had my first PC
