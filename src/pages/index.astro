@@ -1,26 +1,35 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<nav class="hidden md:flex md:justify-center">
+	<nav class="hidden md:flex md:justify-center sticky backdrop-blur-sm top-0">
 		<ul class="flex space-x-16 p-8 text-xl">
 			<a href="/"><li>Home</li></a>
 			<a href="/socials"><li>Socials</li></a>
 			<a href="/projects"><li>Projects</li></a>
 			<a href="/what-i-use"><li>Technologies</li></a>
-			<button class="bg-blue-secondary rounded-lg text-white text-base w-[137px] h-[37px]">Surprise Me!</button>
+			<button
+				class="bg-blue-secondary rounded-lg text-white text-base w-[137px] h-[37px]"
+				>Surprise Me!</button
+			>
 		</ul>
 	</nav>
-	<h1 class="flex justify-center text-center mt-8">
-		MONSTAJOE welcomes you to his <br/>ASTRO-nomical🚀 portfolio
+	<h1 class="flex justify-center text-center mt-8 font-semibold text-[4rem]">
+		MONSTAJOE welcomes you to his <br />ASTRO-nomical🚀 portfolio
 	</h1>
-	<h3 class="flex justify-center text-center text-2xl font-medium">
+	<h3 class="flex justify-center text-center text-3xl font-medium">
 		Real name: Youssef El-Shehaby
 	</h3>
-	
+	<p class="flex justify-center text-center text-xl p-6">
+		I’m a Computer Science at the GIUAS (German International University of
+		Applied Sciences) in my fifth semester. I’m currently majoring in
+		Software Engineering with a minor in Data Science. When I was very
+		young, like way back when, I had my first PC computer with Windows XP.
+		You could this when my fascination with technology and computer began.
+		It is no surprise that I would enroll in Computer Science over a decade
+		later. My dream is to move to the USA to work for Microsoft.
+	</p>
 </Layout>
 
-<style>
-	
-</style>
+<style></style>
