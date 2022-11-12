@@ -1,6 +1,7 @@
 ---
 import Navbar from '../components/Navbar.astro';
 import '../styles/globals.css'
+const {title}=Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -9,7 +10,7 @@ import '../styles/globals.css'
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My ASTRO-nomical🚀 Portfolio</title>
+        <title>{title}</title>
     </head>
     <body>
         <Navbar/>
