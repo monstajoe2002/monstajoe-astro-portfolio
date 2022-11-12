@@ -1,14 +1,11 @@
 ---
-import Layout from "../layouts/Layout.astro"
-
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title={"About Me"}>
-    <h1 class=" flex text-6xl font-medium justify-center">
-        About Me
-    </h1>
-   
-     <p class="flex text-xl text-center p-10 text-blue-secondary mx-0">
+	<h1 class="flex text-6xl font-medium justify-center">About Me</h1>
+
+	<p class="flex text-xl text-center p-10 text-blue-secondary mx-[30rem] max-lg:mx-8">
 		I’m currently majoring in Software Engineering with a minor in Data
 		Science. When I was very young, like way back when, I had my first PC
 		computer with Windows XP. You could this when my fascination with
@@ -16,4 +13,31 @@ import Layout from "../layouts/Layout.astro"
 		Computer Science over a decade later. My dream is to move to the USA to
 		work for Microsoft.
 	</p>
+
+	<ol class="relative border-l border-blue-primary mx-[30rem] max-lg:mx-20 justify-center">
+		<li class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-blue-secondary rounded-full mt-1.5 -left-1.5 border border-white "></div>
+        <time class="mb-1 text-sm font-normal leading-none text-blue-primary ">February 2022</time>
+        <h3 class="text-lg font-semibold text-blue-secondary ">Application UI code in Tailwind CSS</h3>
+        <p class="mb-4 text-base font-normal text-blue-400 ">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+    </li>
+    <li class="mb-10 ml-4">
+        <div class="absolute w-3 h-3 bg-blue-secondary rounded-full mt-1.5 -left-1.5 border border-white "></div>
+        <time class="mb-1 text-sm font-normal leading-none text-blue-primary ">March 2022</time>
+        <h3 class="text-lg font-semibold text-blue-secondary ">Marketing UI design in Figma</h3>
+        <p class="text-base font-normal text-blue-400 ">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+    </li>
+    <li class="ml-4">
+        <div class="absolute w-3 h-3 bg-blue-secondary rounded-full mt-1.5 -left-1.5 border border-white "></div>
+        <time class="mb-1 text-sm font-normal leading-none text-blue-primary ">April 2022</time>
+        <h3 class="text-lg font-semibold text-blue-secondary ">E-Commerce UI code in Tailwind CSS</h3>
+        <p class="text-base font-normal text-blue-400 ">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+    </li>
+	<li class="ml-4">
+        <div class="absolute w-3 h-3 bg-blue-secondary rounded-full mt-1.5 -left-1.5 border border-white "></div>
+        <time class="mb-1 text-sm font-normal leading-none text-blue-primary ">April 2022</time>
+        <h3 class="text-lg font-semibold text-blue-secondary ">E-Commerce UI code in Tailwind CSS</h3>
+        <p class="text-base font-normal text-blue-400 ">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+    </li>
+	</ol>
 </Layout>
