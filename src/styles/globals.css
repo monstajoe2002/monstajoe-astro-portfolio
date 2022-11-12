@@ -4,4 +4,6 @@
      background-color: #cddcff;
      color: #1a8fdd;
      font-family: "Fira Sans", sans-serif;
+     @apply dark:bg-blue-secondary dark:text-light-blue;
  }
+ 
