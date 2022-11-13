@@ -1,6 +1,23 @@
 ---
 import Timeline from "../components/Timeline.astro";
 import Layout from "../layouts/Layout.astro";
+const TIMELINE_EVENTS = [
+    {
+        "date": "Sept - Nov 2022",
+        "title": "RadicalX Virtual Internship",
+        "description": "I signed up for the RadicalX Virtual Internship program. I was accepted and started the program in September 2022.",
+    },
+    {
+        "date": "Oct 2020 - Present",
+        "title": "Enrolled in Computer Science at the GIU",
+        "description": "I am currently enrolled in the Computer Science program at the GIU with a major in Software engineering and a minor in Data Science. I am currently in my third year of the program."
+    },
+    {
+        "date": "2010-2020",
+        "title": "Studied at and graduated from ELS (Egyptian Language School - British Section)",
+        "description": "I studied at ELS for 10 years and graduated from the British section in late 2020 (it was postponed due to COVID-19). I studied the British curriculum and took the IGCSE exams in 2020."
+    }
+]
 ---
 
 <Layout title={"About Me"}>
@@ -15,5 +32,5 @@ import Layout from "../layouts/Layout.astro";
         Computer Science over a decade later. My dream is to move to the USA to
         work for Microsoft.
     </p>
-    <Timeline />
+    <Timeline events={TIMELINE_EVENTS} />
 </Layout>
