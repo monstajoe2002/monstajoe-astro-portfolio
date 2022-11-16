@@ -1,13 +1,21 @@
 ---
-const { title, description, technologies, url } = Astro.props;
+const { title, description, tech, url } = Astro.props;
 ---
 
 <div
     class="relative max-w-xs shadow-md dark:from-blue-primary from-blue-300 to-blue-primary p-6 rounded-md bg-gradient-to-tr"
 >
-    <h1 class="text-2xl font-bold text-light-blue">{title}</h1>
-    <p class="text-lg text-light-blue pb-4">{description}</p>
-    <p class="text-sm ">{technologies}</p>
-    <a class="text-blue-800 underline text-sm absolute bottom-0 pb-4" href={url}>Click here</a
+    <h1 class="text-2xl font-bold text-blue-100 mb-4">{title}</h1>
+    <p class="text-md text-light-blue pb-4">{description}</p>
+    <div class="mb-6 text-light-blue">
+        Built using: 
+        {
+            tech.map((t) => {
+                return <p class="text-blue-200 text-md">- {t}</p>;
+            })
+        }
+    </div>
+    <a class="text-blue-800 underline text-sm absolute bottom-0 mb-4" href={url}
+        >Click here</a
     >
 </div>
