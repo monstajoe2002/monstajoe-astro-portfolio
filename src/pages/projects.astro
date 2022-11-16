@@ -1,8 +1,12 @@
 ---
+import ProjectCard from "../components/ProjectCard.astro";
 import Layout from "../layouts/Layout.astro"
-
+import projects from '../../data/topProjects.json'
 ---
 
 <Layout title="My Projects">
-    
+    <h1 class="flex justify-center text-6xl font-bold mt-1 mb-4">My Top Projects</h1>
+    {projects.map((project) => (
+        <ProjectCard {...project} />
+    ))}
 </Layout>

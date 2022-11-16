@@ -1,6 +1,6 @@
 [
     {
-        "name": "My Next.js Portfolio",
+        "title": "My Next.js Portfolio",
         "description": "My old portfolio built with Next.js, and some questionable design choices.",
         "tech": [
             "Next.js",
@@ -11,7 +11,7 @@
         "url": "https://github.com/monstajoe2002/my-nextjs-portfolio"
     },
     {
-        "name": "Workout Buddy App",
+        "title": "Workout Buddy App",
         "description": "An app that will log my exercises with authentication and a database using the MERN Stack.",
         "tech": [
             "MongoDB",
@@ -25,7 +25,7 @@
         "url": "https://github.com/monstajoe2002/workout-buddy-webapp"
     },
     {
-        "name": "React Wordle Clone",
+        "title": "React Wordle Clone",
         "description": "A clone of the popular word cloud generator Wordle, built with React.",
         "tech": [
             "React",
