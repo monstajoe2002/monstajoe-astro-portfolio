@@ -13,13 +13,13 @@ const { title } = Astro.props;
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{title}</title>
     </head>
-    <body class="bg-gradient-to-br from-light-blue to-blue-300 dark:from-blue-secondary dark:to-blue-800">
+    <body class="gradient">
         <Navbar />
         <div class="fade-in default-layout"><slot /></div>
         <Footer />
     </body>
 </html>
-<style>
+<style is:global>
     .default-layout {
         display: flex;
         flex-direction: column;
@@ -38,5 +38,8 @@ const { title } = Astro.props;
             margin-top: 0;
             opacity: 1;
         }
+    }
+    .gradient{
+        @apply bg-gradient-to-br from-light-blue to-blue-300 dark:from-blue-secondary dark:to-blue-800;
     }
 </style>
