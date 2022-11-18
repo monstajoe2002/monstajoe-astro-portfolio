@@ -33,6 +33,15 @@
             "React Router",
             "React Context"
         ],
-        "url":"https://github.com/monstajoe2002/react-wordle-clone"
+        "url": "https://github.com/monstajoe2002/react-wordle-clone"
+    },
+    {
+        "title": "RadicalX Apprenticeship Project",
+        "description": "A team project for my internship at RadicalX, a startup that helps people find their next job.",
+        "tech": [
+            "React",
+            "Firebase"
+        ],
+        "url": "https://github.com/ZodicSlanser/apprenticeship-program"
     }
 ]
