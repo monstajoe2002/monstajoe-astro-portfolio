@@ -6,11 +6,45 @@ import Layout from "../layouts/Layout.astro";
     <h1 class="flex justify-center text-center text-6xl font-bold mt-1 mb-4">
         My Tech & Dev Stack
     </h1>
-    <div class="flex justify-center text-center text-2xl font-medium mt-1 mb-12">
-        Here's a list of the tools I use to build my projects, along with some
-        of my favorite software.
+    <div
+        class="flex justify-center text-center text-2xl font-medium mt-1 mb-12"
+    >
+        Here's a list of the tools I use to build my projects, along with
+        languages I'm familiar with.
     </div>
-    <div class="flex text-2xl font-medium justify-center mt-1 mb-4">
-        <p>Code Editor:</p>
+    <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-4">
+        <p class="mb-4">
+            Code Editor:{" "}
+            <a
+                class="text-blue-500 underline dark:text-blue-400"
+                href="https://code.visualstudio.com/">VS Code</a
+            >
+        </p>
     </div>
+   
+     <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-2">
+        Progamming Languages: {" "}
+    </div>
+    <ul class="text-2xl font-medium self-center mt-1 mb-4 list-disc">
+        <li class="text-blue-500 dark:text-blue-400">HTML</li>
+        <li class="text-orange-500 dark:text-orange-300">CSS</li>
+        <li class="text-yellow-200 dark:text-yellow-300">JavaScript</li>
+        <li class="text-blue-500 dark:text-blue-400">TypeScript</li>
+        <li class="text-red-500 dark:text-orange-400">Java</li>
+        <li class="text-yellow-200 dark:text-blue-400">Python</li>
+        <li class="text-blue-500 dark:text-blue-400">SQL (very basic)</li>
+        <li class="text-orange-600 dark:text-orange-300">Rust (very basic)</li>
+        <li class="text-blue-500 dark:text-blue-400">Kotlin</li>
+        <li class="text-blue-500 dark:text-blue-400">C++</li>
+    </ul>
+    <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-2">
+        Frameworks: {" "}
+    </div>
+    <ul class="text-2xl font-medium self-center mt-1 mb-4 list-disc">
+        <li class="text-blue-400 dark:text-[#61DBFB]">React</li>
+        <li class="text-blue-500 dark:text-white">Next.js</li>
+        <li class="text-green-600 dark:text-green-400">Vue</li>
+        <li class="text-orange-600 dark:text-orange-400">Astro</li>
+    </ul>
+   
 </Layout>
