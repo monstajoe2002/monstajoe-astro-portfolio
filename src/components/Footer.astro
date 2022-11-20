@@ -2,33 +2,36 @@
 import "../styles/globals.css";
 ---
 
-<footer class="bg-blue-primary dark:bg-blue-900 footer text-blue-200 space-x-4 justify-center grid sm:flex">
-    <div class="space-x-2">
-        <i class="bi bi-twitter" style="font-size: 1.5em;"></i><a
-            href="https://twitter.com/monstajoedev">@monstajoedev</a
-        >
+<div class="py-5 text-center">
+    <div class="mb-4">
+        Follow me:
     </div>
-    <div class="space-x-2">
-        <i class="bi bi-instagram" style="font-size: 1.5em;"></i><a
-            href="http://instagram.com/iammonstajoe">@iammonstajoe</a
-        >
+    <div class="container max-w-screen-lg mx-auto">
+        <div>
+            <div class="flex flex-wrap justify-center gap-2">
+                <a
+                    href="https://twitter.com/monstajoedev"
+                    class="dark:bg-blue-primary bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+                    ><i class="bi bi-twitter"></i>
+                </a><a
+                    href="https://www.linkedin.com/in/youssef-el-shehaby-2ba3a1245/"
+                    class="dark:bg-blue-primary bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+                    ><i class="bi bi-linkedin"></i>
+                </a><a
+                    href="https://tiktok.com/monstajoe"
+                    class="dark:bg-blue-primary bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+                    ><i class="bi bi-tiktok"></i>
+                </a><a
+                    href="https://github.com/monstajoe2002"
+                    class="dark:bg-blue-primary bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+                    ><i class="bi bi-github"></i>
+                </a>
+                <a href="http://instagram.com/iammonstajoe"
+                class="dark:bg-blue-primary bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+                >
+                <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="space-x-2">
-        <i class="bi bi-tiktok" style="font-size: 1.5em;"></i><a
-            href="http://tiktok.com/monstajoe">@monstajoe</a
-        >
-    </div>
-</footer>
-<style>
-    .footer {
-        padding: 2rem;
-        bottom: 0%;
-        width: 100%;
-        position: fixed;
-    }
-    @media (768px<width<=1024px) {
-        .footer {
-            position: fixed;
-        }
-    }
-</style>
+</div>
