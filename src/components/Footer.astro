@@ -2,22 +2,32 @@
 import "../styles/globals.css";
 ---
 
-<footer class="bg-blue-primary dark:bg-blue-900 footer text-blue-200">
-    I swear 16 was yesterday, 
+<footer class="bg-blue-primary dark:bg-blue-900 footer text-blue-200 space-x-4 justify-center grid sm:flex">
+    <div class="space-x-2">
+        <i class="bi bi-twitter" style="font-size: 1.5em;"></i><a
+            href="https://twitter.com/monstajoedev">@monstajoedev</a
+        >
+    </div>
+    <div class="space-x-2">
+        <i class="bi bi-instagram" style="font-size: 1.5em;"></i><a
+            href="http://instagram.com/iammonstajoe">@iammonstajoe</a
+        >
+    </div>
+    <div class="space-x-2">
+        <i class="bi bi-tiktok" style="font-size: 1.5em;"></i><a
+            href="http://tiktok.com/monstajoe">@monstajoe</a
+        >
+    </div>
 </footer>
 <style>
-    .footer{
+    .footer {
         padding: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         bottom: 0%;
         width: 100%;
         position: fixed;
-        
     }
-    @media (768px<width<=1024px)  {
-        .footer{
+    @media (768px<width<=1024px) {
+        .footer {
             position: fixed;
         }
     }
