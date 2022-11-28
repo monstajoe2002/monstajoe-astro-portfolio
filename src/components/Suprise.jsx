@@ -37,7 +37,6 @@ function useMousePosition() {
        
         setClickCount(clickCount => clickCount + 1)
       }, 500)
-      console.log(clickCount)
       
     }
     window.addEventListener('mousemove', handleMouseMove)
