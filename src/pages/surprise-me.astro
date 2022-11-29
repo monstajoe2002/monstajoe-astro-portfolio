@@ -1,6 +1,6 @@
 ---
-import Suprise from "../components/Suprise";
 import Navbar from "../components/Navbar.astro";
+import "../styles/globals.css"
 ---
 
 <!DOCTYPE html>
@@ -13,15 +13,8 @@ import Navbar from "../components/Navbar.astro";
     </head>
     <body>
         <Navbar />
-        <Suprise client:load />
     </body>
 </html>
 <style>
-    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
-    body {
-        font-family: "Inter", sans-serif;
-        background-color: #000;
-        color: #fff;
-    }
 </style>
