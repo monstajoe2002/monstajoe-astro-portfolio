@@ -20,7 +20,7 @@ const { title } = Astro.props;
     </body>
 </html>
 <style>
-    body{
+    body {
         height: 100vh;
     }
     .default-layout {
@@ -43,6 +43,11 @@ const { title } = Astro.props;
         100% {
             margin-top: 0;
             opacity: 1;
+        }
+    }
+    @media (max-width: 768px) {
+        body {
+            height: max-content;
         }
     }
 </style>
