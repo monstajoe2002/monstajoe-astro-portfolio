@@ -21,7 +21,9 @@ const { title } = Astro.props;
 </html>
 <style>
     body {
-        height: 100vh;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
     .default-layout {
         display: flex;
@@ -37,17 +39,12 @@ const { title } = Astro.props;
     }
     @keyframes fadeIn {
         0% {
-            margin-top: 1rem;
             opacity: 0;
         }
         100% {
-            margin-top: 0;
             opacity: 1;
         }
     }
-    @media (max-width: 768px) {
-        body {
-            height: max-content;
-        }
-    }
+    
+    
 </style>
