@@ -3,44 +3,99 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title={"Tech + Dev Stack"}>
-    <h1 class="flex justify-center text-center text-6xl font-bold mt-1 mb-4">
-        My Tech & Dev Stack
-    </h1>
-    <div
-        class="flex justify-center text-center text-2xl font-medium mt-1 mb-12"
-    >
-        Here's a list of the tools I use to build my projects, along with
-        languages I'm familiar with.
-    </div>
-    <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-4">
-        <p class="mb-4">
-            Code Editor:
-        </p><p class="text-blue-500 dark:text-blue-400 font-semibold">&nbsp;VS Code</p>
+  <h1 class="flex justify-center text-center text-6xl font-bold mt-1 mb-4">
+    My Tech & Dev Stack
+  </h1>
+  <div class="flex justify-center text-center text-2xl font-medium mt-1 mb-12">
+    Here's a list of the tools I use to build my projects, along with languages
+    I'm familiar with.
+  </div>
 
+  <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-2">
+    Progamming Languages: {" "}
+  </div>
+  <div
+    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
+  >
+    <div class="bg-orange-500 dark:bg-orange-400 lang-button">
+      <i class="fa-brands fa-html5" style="font-size: 4rem;"></i>
+      HTML
     </div>
-
-    <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-2">
-        Progamming Languages: {" "}
+    <div class="bg-blue-600 dark:bg-blue-500 lang-button">
+      <i class="fa-brands fa-css3-alt" style="font-size: 4rem;"></i>
+      CSS
     </div>
-    <ul class="text-2xl font-semibold self-center mt-1 mb-4 list-disc">
-        <li class="text-blue-500 dark:text-blue-400">HTML</li>
-        <li class="text-orange-500 dark:text-orange-300">CSS</li>
-        <li class="text-yellow-200 dark:text-yellow-300">JavaScript</li>
-        <li class="text-blue-500 dark:text-blue-400">TypeScript</li>
-        <li class="text-red-500 dark:text-orange-400">Java</li>
-        <li class="text-yellow-200 dark:text-blue-400">Python</li>
-        <li class="text-blue-500 dark:text-blue-400">SQL (very basic)</li>
-        <li class="text-orange-600 dark:text-orange-300">Rust (very basic)</li>
-        <li class="text-blue-500 dark:text-blue-400">Kotlin</li>
-        <li class="text-blue-500 dark:text-blue-400">C++</li>
-    </ul>
-    <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-2">
-        Frameworks: {" "}
+    <div class="bg-yellow-300 text-black lang-button">
+      <i class="fa-brands fa-js" style="font-size: 4rem;"></i>
+      JavaScript
     </div>
-    <ul class="text-2xl font-semibold self-center mt-1 mb-4 list-disc">
-        <li class="text-blue-400 dark:text-[#61DBFB]">React</li>
-        <li class="text-blue-500 dark:text-white">Next.js</li>
-        <li class="text-green-600 dark:text-green-400">Vue</li>
-        <li class="text-orange-600 dark:text-orange-400">Astro</li>
-    </ul>
+    <div class="bg-blue-500 lang-button">
+      <iconify-icon icon="simple-icons:typescript" style="font-size: 4rem;" />
+      TypeScript
+    </div>
+    <div class="bg-red-500 dark:bg-orange-400 lang-button">
+      <i class="fa-brands fa-java" style="font-size: 4rem;"></i>
+      Java
+    </div>
+    <div class="bg-blue-400 dark:bg-blue-600 lang-button text-yellow-300">
+      <i class="fa-brands fa-python" style="font-size: 4rem;"></i>
+      Python
+    </div>
+    <div class="bg-blue-500 dark:bg-blue-400 lang-button">
+      <iconify-icon
+        icon="vscode-icons:file-type-sql"
+        style="font-size: 4rem;"
+      />
+      <div class="gap-0 text-center">
+        SQL
+        <div class="text-sm">(very basic)</div>
+      </div>
+    </div>
+    <div class="bg-orange-600 dark:bg-orange-300 lang-button">
+      <i class="fa-brands fa-rust" style="font-size: 4rem;"></i>
+      <div class="gap-0 text-center">
+        Rust
+        <div class="text-sm">(very basic)</div>
+      </div>
+    </div>
+    <div class="bg-purple-500 dark:bg-purple-400 lang-button">
+      <iconify-icon icon="mdi:language-kotlin" style="font-size: 4rem;" />
+      Kotlin
+    </div>
+    <div class="bg-blue-500 dark:bg-blue-400 lang-button">
+      <iconify-icon icon="bxl:c-plus-plus" style="font-size: 4rem;" />
+      C++
+    </div>
+  </div>
+  <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-2">
+    Frameworks: {" "}
+  </div>
+  <div
+    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
+  >
+    <div class="bg-blue-400 dark:bg-[#61DBFB] lang-button">
+      <i class="fa-brands fa-react" style="font-size: 4rem;"></i>
+      React
+    </div>
+    <div class="bg-blue-500 dark:bg-white text-black lang-button">
+      <iconify-icon icon="akar-icons:nextjs-fill" style="font-size: 4rem;" />
+      Next.js
+    </div>
+    <div class="bg-green-600 dark:bg-green-400 lang-button">
+      <i class="fa-brands fa-vuejs" style="font-size: 4rem;"></i>
+      Vue
+    </div>
+    <div class="bg-orange-600 dark:bg-orange-400 lang-button">
+      <iconify-icon icon="simple-icons:astro" style="font-size: 4rem;" />
+      Astro
+    </div>
+  </div>
 </Layout>
+<style>
+  .lang-button {
+    @apply flex flex-col justify-center items-center p-4 gap-4 rounded-xl drop-shadow-lg transition duration-500 ease-in-out;
+  }
+  .lang-button:hover {
+    @apply scale-105 transform transition duration-500 ease-in-out;
+  }
+</style>
