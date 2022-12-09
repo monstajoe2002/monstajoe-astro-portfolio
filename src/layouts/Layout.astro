@@ -7,27 +7,48 @@ const { title } = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{title}</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerPolicy="no-referrer" />
-        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    </head>
-    <body>
-        <Navbar />
-        <div class="fade-in default-layout"><slot /></div>
-        <Footer />
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerPolicy="no-referrer"
+    />
+    <script
+      src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"
+    ></script>
+  </head>
+  <body>
+    <Navbar />
+    <div class="fade-in default-layout">
+      <slot />
+      <div id="theme-msg" class="text-center font-semibold text-lg">
+        To enable the dark mode, change the theme to dark in the browser
+        settings.
+      </div>
+    </div>
+    <Footer />
+  </body>
+  <script>
+    const themeMsg = document.getElementById("theme-msg");
+    const theme = window.matchMedia("(prefers-color-scheme: dark)");
+    if (theme.matches) {
+      themeMsg.textContent="To enable the light mode, change the theme to light in the browser settings."
+    }
+  </script>
 </html>
-<style>
-    body {
+    <style>
+      body {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-    }
-    .default-layout {
+      }
+      .default-layout {
         display: flex;
         flex-direction: column;
         margin-bottom: 3rem;
@@ -35,18 +56,16 @@ const { title } = Astro.props;
         padding-right: 2rem;
         max-width: 900px;
         margin: auto;
-    }
-    .fade-in {
+      }
+      .fade-in {
         animation: fadeIn 0.6s ease-in;
-    }
-    @keyframes fadeIn {
+      }
+      @keyframes fadeIn {
         0% {
-            opacity: 0;
+          opacity: 0;
         }
         100% {
-            opacity: 1;
+          opacity: 1;
         }
-    }
-    
-    
-</style>
+      }
+    </style>
