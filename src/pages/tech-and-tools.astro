@@ -15,7 +15,7 @@ import Layout from "../layouts/Layout.astro";
     Progamming Languages: {" "}
   </div>
   <div
-    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
+    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 -z-10"
   >
     <div class="bg-orange-500 dark:bg-orange-400 lang-button">
       <i class="fa-brands fa-html5" style="font-size: 4rem;"></i>
@@ -83,7 +83,10 @@ import Layout from "../layouts/Layout.astro";
     </div>
     <div class="bg-green-600 dark:bg-green-400 lang-button">
       <i class="fa-brands fa-vuejs" style="font-size: 4rem;"></i>
-      Vue
+      <div class="gap-0 text-center">
+        Vue
+        <div class="text-sm">(very basic)</div>
+      </div>
     </div>
     <div class="bg-orange-600 dark:bg-orange-400 lang-button">
       <iconify-icon icon="simple-icons:astro" style="font-size: 4rem;" />
