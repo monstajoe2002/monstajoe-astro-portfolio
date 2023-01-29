@@ -1,47 +1,46 @@
 [
-    {
-        "title": "My Next.js Portfolio",
-        "description": "My old portfolio built with Next.js, and some questionable design choices.",
-        "tech": [
-            "Next.js",
-            "React",
-            "Tailwind CSS",
-            "Vercel"
-        ],
-        "url": "https://github.com/monstajoe2002/my-nextjs-portfolio"
-    },
-    {
-        "title": "Workout Buddy App",
-        "description": "An app that will log my exercises with authentication and a database using the MERN Stack.",
-        "tech": [
-            "MongoDB",
-            "Express",
-            "React",
-            "Node.js",
-            "bcrypt",
-            "JWT",
-            "Mongoose"
-        ],
-        "url": "https://github.com/monstajoe2002/workout-buddy-webapp"
-    },
-    {
-        "title": "React Wordle Clone",
-        "description": "A clone of the popular word cloud generator Wordle, built with React.",
-        "tech": [
-            "React",
-            "React Hooks",
-            "React Router",
-            "React Context"
-        ],
-        "url": "https://github.com/monstajoe2002/react-wordle-clone"
-    },
-    {
-        "title": "RadicalX Apprenticeship Project",
-        "description": "A team project for my internship at RadicalX, a startup that helps people find their next job.",
-        "tech": [
-            "React",
-            "Firebase"
-        ],
-        "url": "https://github.com/ZodicSlanser/apprenticeship-program"
-    }
+  {
+    "title": "My Next.js Portfolio",
+    "description": "My old portfolio built with Next.js, and some questionable design choices.",
+    "tech": ["Next.js", "React", "Tailwind CSS", "Vercel"],
+    "url": "https://github.com/monstajoe2002/my-nextjs-portfolio"
+  },
+  {
+    "title": "Workout Buddy App",
+    "description": "An app that will log my exercises with authentication and a database using the MERN Stack.",
+    "tech": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "bcrypt",
+      "JWT",
+      "Mongoose"
+    ],
+    "url": "https://github.com/monstajoe2002/workout-buddy-webapp"
+  },
+  {
+    "title": "React Wordle Clone",
+    "description": "A clone of the popular word cloud generator Wordle, built with React.",
+    "tech": ["React", "React Hooks", "React Router", "React Context"],
+    "url": "https://github.com/monstajoe2002/react-wordle-clone"
+  },
+  {
+    "title": "RadicalX Apprenticeship Project",
+    "description": "A team project for my internship at RadicalX, a startup that helps people find their next job.",
+    "tech": ["React", "Firebase"],
+    "url": "https://github.com/ZodicSlanser/apprenticeship-program"
+  },
+  {
+    "title": "Next.js Ecommerce",
+    "description": "For a Design Patterns project, we were asked to use the Factory and Abstract Factory patterns to build an e-commerce site.",
+    "tech": ["Next.js", "TypeScript", "Chakra UI", "MongoDB", "Mongoose"],
+    "url": "https://github.com/monstajoe2002/dp-ecommerce"
+  },
+  {
+    "title": "Movies API",
+    "description": "I decided to build put my Java experience in practice by building a RESTful API using Spring Boot",
+    "tech": ["Java", "Spring Boot", "MongoDB"],
+    "url": "https://github.com/monstajoe2002/spring-movies-api"
+  }
 ]
