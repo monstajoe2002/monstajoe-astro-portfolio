@@ -42,5 +42,26 @@
     "description": "I decided to build put my Java experience in practice by building a RESTful API using Spring Boot",
     "tech": ["Java", "Spring Boot", "MongoDB"],
     "url": "https://github.com/monstajoe2002/spring-movies-api"
+  },
+  {
+    "title": "Remotion Intro",
+    "description": "A simple intro video for my YouTube videos I made using Remotion, a React library for creating videos.",
+    "tech": ["React", "Remotion"],
+    "url": "https://github.com/monstajoe2002/remotion-youtube-intro"
+  },
+  {
+    "title": "T3 Recipes App",
+    "description": "A simple recipe app I made using Create T3 App.",
+    "tech": [
+      "React",
+      "Create T3 App",
+      "Chakra UI",
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Prisma",
+      "tRPC"
+    ],
+    "url": "https://github.com/monstajoe2002/t3-recipe-app"
   }
 ]
