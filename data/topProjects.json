@@ -63,5 +63,10 @@
       "tRPC"
     ],
     "url": "https://github.com/monstajoe2002/t3-recipe-app"
+  },{
+    "title":"Feedback App",
+    "description":"A simple feedback app I made using Svelte.",
+    "tech":["Svelte","JavaScript"],
+    "url":"https://github.com/monstajoe2002/svetle-feedback-app"
   }
 ]
