@@ -12,8 +12,7 @@ import ProjectLayout from "../layouts/ProjectLayout.astro";
     Click on any project to visit the GitHub page
   </h2>
   <div
-    class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-16 self-center mt-8 -z-10"
-  >
+    class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-16 self-center mt-8 ">
     {projects.map((project) => <ProjectCard {...project} />).reverse()}
   </div>
 </ProjectLayout>

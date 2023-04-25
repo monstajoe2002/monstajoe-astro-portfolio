@@ -63,10 +63,24 @@
       "tRPC"
     ],
     "url": "https://github.com/monstajoe2002/t3-recipe-app"
-  },{
-    "title":"Feedback App",
-    "description":"A simple feedback app I made using Svelte.",
-    "tech":["Svelte","JavaScript"],
-    "url":"https://github.com/monstajoe2002/svetle-feedback-app"
+  },
+  {
+    "title": "Feedback App",
+    "description": "A simple feedback app I made using Svelte.",
+    "tech": ["Svelte", "JavaScript"],
+    "url": "https://github.com/monstajoe2002/svetle-feedback-app"
+  },
+  {
+    "title": "S3 data uploader",
+    "description": "This is a simple app I made to upload data to an S3 bucket using Svelte and the AWS SDK.",
+    "tech": ["Svelte", "JavaScript",
+    "AWS SDK"],
+    "url": "https://github.com/monstajoe2002/svetle-feedback-app"
+  },
+  {
+    "title": "Bookmarx",
+    "description": "I created a Chrome extension that allows you to bookmark your favorite websites and organize them into groups.",
+    "tech": ["Svelte", "Firebase"],
+    "url": "https://github.com/monstajoe2002/bookmarx"
   }
 ]

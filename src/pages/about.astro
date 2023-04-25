@@ -1,6 +1,7 @@
 ---
 import Timeline from "../components/Timeline.astro";
-import Layout from "../layouts/Layout.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+
 const TIMELINE_EVENTS = [
     {
         "date": "Sept - Nov 2022",
@@ -25,7 +26,7 @@ const TIMELINE_EVENTS = [
 ]
 ---
 
-<Layout title={"About Me"}>
+<MainLayout title={"About Me"}>
     <h1 class="flex text-6xl text-center justify-center font-bold">About Me</h1>
     <p
         class="flex text-xl text-center p-10 text-blue-secondary dark:text-blue-300"
@@ -38,4 +39,4 @@ const TIMELINE_EVENTS = [
         work for Microsoft.
     </p>
     <Timeline events={TIMELINE_EVENTS} />
-</Layout>
+</MainLayout>
