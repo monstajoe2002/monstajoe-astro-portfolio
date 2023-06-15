@@ -1,6 +1,5 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-
 ---
 
 <MainLayout title={"Tech + Dev Stack"}>
@@ -16,8 +15,7 @@ import MainLayout from "../layouts/MainLayout.astro";
     Progamming Languages: {" "}
   </div>
   <div
-    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 -z-10"
-  >
+    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 -z-10">
     <div class="bg-orange-500 dark:bg-orange-400 lang-button">
       <i class="fa-brands fa-html5" style="font-size: 4rem;"></i>
       HTML
@@ -69,13 +67,16 @@ import MainLayout from "../layouts/MainLayout.astro";
       ></iconify-icon>
       C++
     </div>
+    <div class="bg-[#40c4ff] dark:bg-blue-300 lang-button">
+      <iconify-icon icon="simple-icons:dart" style="font-size: 4rem;"></iconify-icon>
+      Dart
+    </div>
   </div>
   <div class="flex text-2xl font-medium text-center justify-center mt-1 mb-2">
     Frameworks: {" "}
   </div>
   <div
-    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4"
-  >
+    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
     <div class="bg-blue-400 dark:bg-[#61DBFB] lang-button">
       <i class="fa-brands fa-react" style="font-size: 4rem;"></i>
       React
@@ -91,11 +92,19 @@ import MainLayout from "../layouts/MainLayout.astro";
       ></iconify-icon>
       Astro
     </div>
+    <div class="bg-[#ff3e00] dark:bg-red-500 lang-button">
+      <iconify-icon icon="simple-icons:svelte" style="font-size: 4rem;"
+      ></iconify-icon>
+      Svelte
+    </div>
+    <div class="bg-[#13b9fd] dark:bg-blue-300 lang-button">
+      <iconify-icon icon="simple-icons:flutter" style="font-size: 4rem;"></iconify-icon>
+      Flutter
+    </div>
   </div>
+  <style>
+    .lang-button {
+      @apply flex flex-col justify-center items-center p-4 gap-4 w-40 h-40 rounded-xl drop-shadow-lg hover:scale-105 transform transition duration-500 ease-in-out;
+    }
+  </style>
 </MainLayout>
-<style>
-  .lang-button {
-    @apply flex flex-col justify-center items-center p-4 gap-4 w-40 h-40 rounded-xl drop-shadow-lg hover:scale-105 transform transition duration-500 ease-in-out;
-  }
- 
-</style>
