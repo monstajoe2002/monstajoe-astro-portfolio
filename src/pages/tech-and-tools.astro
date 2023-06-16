@@ -15,7 +15,7 @@ import MainLayout from "../layouts/MainLayout.astro";
     Progamming Languages: {" "}
   </div>
   <div
-    class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 -z-10">
+  class="text-2xl font-semibold self-center mt-1 mb-4 text-white grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
     <div class="bg-orange-500 dark:bg-orange-400 lang-button">
       <i class="fa-brands fa-html5" style="font-size: 4rem;"></i>
       HTML
@@ -46,7 +46,8 @@ import MainLayout from "../layouts/MainLayout.astro";
       ></iconify-icon>
       <div class="gap-0 text-center">
         SQL
-        <div class="text-sm">(very basic)</div>
+        <br />
+        <small class="text-sm">(very basic)</small>
       </div>
     </div>
     <div class="bg-orange-600 dark:bg-orange-300 lang-button">
@@ -54,7 +55,7 @@ import MainLayout from "../layouts/MainLayout.astro";
       <div class="gap-0 text-center">
         Rust
         <br />
-        <small>(very basic)</small>
+        <small class="text-sm">(very basic)</small>
       </div>
     </div>
     <div class="bg-purple-500 dark:bg-purple-400 lang-button">
@@ -68,7 +69,8 @@ import MainLayout from "../layouts/MainLayout.astro";
       C++
     </div>
     <div class="bg-[#40c4ff] dark:bg-blue-300 lang-button">
-      <iconify-icon icon="simple-icons:dart" style="font-size: 4rem;"></iconify-icon>
+      <iconify-icon icon="simple-icons:dart" style="font-size: 4rem;"
+      ></iconify-icon>
       Dart
     </div>
   </div>
@@ -98,7 +100,8 @@ import MainLayout from "../layouts/MainLayout.astro";
       Svelte
     </div>
     <div class="bg-[#13b9fd] dark:bg-blue-300 lang-button">
-      <iconify-icon icon="simple-icons:flutter" style="font-size: 4rem;"></iconify-icon>
+      <iconify-icon icon="simple-icons:flutter" style="font-size: 4rem;"
+      ></iconify-icon>
       Flutter
     </div>
   </div>
