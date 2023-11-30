@@ -82,5 +82,16 @@
     "description": "I created a Chrome extension that allows you to bookmark your favorite websites and organize them into groups.",
     "tech": ["Svelte", "Firebase"],
     "url": "https://github.com/monstajoe2002/bookmarx"
+  },
+  {
+    "title":"Sleek",
+    "description": "A clone of <b>tweek.so</b>, a weekly planner. My version comes with an AI assistant that can help you with your daily tasks.",
+    "tech":["React","Next.js", "Convex","TypeScript","shadcn-ui","PaLLM 2"],
+    "url":"https://github.com/monstajoe2002/sleek-ai"
+  },{
+    "title":"Project Explorer",
+    "description": "A Visual Studio Code extension that allows you to explore your Next.js projects in a tree view.",
+    "tech":["TypeScript","VS Code API"],
+    "url":"https://github.com/monstajoe2002/project-explorer"
   }
 ]
